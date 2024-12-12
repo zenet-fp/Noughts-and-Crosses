@@ -51,7 +51,6 @@ class NoughtsCrosses:
 
         while self.player_piece is None:
             self.game_board()
-            # print("<-------------------------------------------------------------------------------->")
             user_piece = str((input("Which piece are you using: Noughts or Crosses? (O / X) : "))).upper()
             self.player_piece = user_piece
             break
