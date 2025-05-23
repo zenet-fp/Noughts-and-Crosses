@@ -45,7 +45,9 @@ class NoughtsCrosses:
     print()
 
     def user_choice(self):
+        print("You are playing Noughts And Crosses.")
         print()
+        print(f"Positions below are abbreviations, TL: Top Left, MM: Middle Middle, etc.")
         print(f"These are your positions: {list(self.positions.keys())}")
         print("<-------------------------------------------------------------------------------->")
 
